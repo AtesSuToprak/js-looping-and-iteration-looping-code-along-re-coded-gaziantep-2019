@@ -8,12 +8,12 @@ function writeCards(names , events) {
 let newArr = [];
   for(let i = 0 ; i <names.length; i++) { 
     
-    newArr.push(`Thank you, ${names[i]}, for the wonderful ${events[i]} gift.`);
+    newArr.push(`Thank you, ${names[i]}, for the wonderful ${events} gift.`);
     
   }
   return newArr;
 }
-
+ // Second assignment starts down below ;
 let counter = 10;
 function countDown(counter) {
   
